@@ -1,5 +1,5 @@
-Ulenar's FoundryVTT Documentation documentation
-===============================================
+Ulenar's FoundryVTT Documentation
+=================================
 
 A collection of FoundryVTT documentation organised in a manner that I find useful.
 
@@ -7,3 +7,4 @@ A collection of FoundryVTT documentation organised in a manner that I find usefu
    :maxdepth: 2
    :caption: Contents:
 
+   module_development/index.rst
