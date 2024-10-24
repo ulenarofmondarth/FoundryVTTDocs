@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Documentation
       run: |
-        docker run --rm -v "${{ github.workspace }}/docs":/docs ulenarofmondarth/sphinx-docs:latest make html
+        docker run --rm -v "${{ github.workspace }}/docs":/docs ghcr.io/ulenarofmondarth/sphinx-docs:latest make html
         cd ./docs/_build/html
         zip -r ${{ github.workspace }}/documentation-${{ github.ref_name }}.zip .
 
