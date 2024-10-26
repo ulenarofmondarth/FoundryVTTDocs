@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Opinionated &mdash; Ulenar&#39;s FoundryVTT Documentation 0.1.0 documentation</title>
+  <title>Other Resources &mdash; Ulenar&#39;s FoundryVTT Documentation 0.1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Module Development Inside Foundry" href="inside_foundry.html" />
-    <link rel="prev" title="Package Development" href="index.html" /> 
+    <link rel="next" title="Notes on Development" href="notes_on_development.html" />
+    <link rel="prev" title="Hosting Your Module" href="hosting.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,15 +45,14 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Package Development</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Opinionated</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#but-organic">But Organic</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#a-word-on-testing">A Word on Testing</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="opinionated.html">Opinionated</a></li>
 <li class="toctree-l2"><a class="reference internal" href="inside_foundry.html">Module Development Inside Foundry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="outside_foundry.html">Module Development Outside Foundry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hosting.html">Hosting Your Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="other_resources.html">Other Resources</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Other Resources</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#developing-code-in-modules">Developing Code in Modules</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="notes_on_development.html">Notes on Development</a></li>
 </ul>
 </li>
@@ -74,9 +73,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="index.html">Package Development</a></li>
-      <li class="breadcrumb-item active">Opinionated</li>
+      <li class="breadcrumb-item active">Other Resources</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/module_development/opinionated.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/module_development/other_resources.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -84,22 +83,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="opinionated">
-<h1>Opinionated<a class="headerlink" href="#opinionated" title="Link to this heading"></a></h1>
-<p>This is an opinionated view of module development and there will undoubtedly be many who disagree. This is <em>my</em> approach. If you like it then I have tried to make it accessible, if you don’t like it that’s fine as FoundryVTT allows many approaches to developing modules.</p>
-<section id="but-organic">
-<h2>But Organic<a class="headerlink" href="#but-organic" title="Link to this heading"></a></h2>
-<blockquote class="epigraph">
-<div><p>My opinion may have changed, but not the fact that I am right.</p>
-<p class="attribution">—Ashley Brilliant</p>
-</div></blockquote>
-<p>Words to live by. This documentation reflects my current thinking. It mas changed, will change, and will certainly be at odds with the opinions of others.</p>
-</section>
-<section id="a-word-on-testing">
-<h2>A Word on Testing<a class="headerlink" href="#a-word-on-testing" title="Link to this heading"></a></h2>
-<p>One of the things that struck me about the FoundryVTT Module ecosystem was the lack of any evident testing. It may be that some developers have tests that they maintain outside their module’s version control (weird) or it may be that they perform only manual tests. Either way this was not something I wanted to ignore.</p>
-<p>A few brief enquiries resulted in very little information on how others did (or even <em>if</em> they did) any testing. This resulted in the <a class="reference external" href="https://github.com/ulenarofmondarth/module-framework">Module Framework</a>, a reference framework for developing FoundryVTT Modules.</p>
-<p>Essentially, I believe modules that have good tests are ultimately higher quality and easier to maintain. At the same time, I acknowledge that this approach can seem heavy handed for smaller modules.</p>
+  <section id="other-resources">
+<h1>Other Resources<a class="headerlink" href="#other-resources" title="Link to this heading"></a></h1>
+<p>A collection of resources found around the WWW.</p>
+<section id="developing-code-in-modules">
+<h2>Developing Code in Modules<a class="headerlink" href="#developing-code-in-modules" title="Link to this heading"></a></h2>
+<p>Although dated these remain a good starting point for current (v12) developers:</p>
+<ul class="simple">
+<li><p>Dated (v0.8.8) but a reasonable primer on developing a module from scratch <a class="reference external" href="https://hackmd.io/&#64;akrigline/ByHFgUZ6u/%2FF4CFuxqZSTOcqgixEf9M6A">Foundry VTT Module Making for Beginners</a>.</p></li>
+<li><p>Dated (v9) but a sound starting point for figuring out FoundryVTT internals and module develotment <a class="reference external" href="https://foundryvtt.wiki/en/development/getting-started-with-development">Getting Started with Package Development</a>.</p></li>
+</ul>
 </section>
 </section>
 
@@ -107,8 +100,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Package Development" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="inside_foundry.html" class="btn btn-neutral float-right" title="Module Development Inside Foundry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="hosting.html" class="btn btn-neutral float-left" title="Hosting Your Module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="notes_on_development.html" class="btn btn-neutral float-right" title="Notes on Development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

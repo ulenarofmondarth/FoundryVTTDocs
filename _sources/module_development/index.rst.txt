@@ -11,6 +11,7 @@ Package development includes developing Systems, Worlds, and Modules. I am mostl
    opinionated.rst
    inside_foundry.rst
    outside_foundry.rst
-
-
+   hosting.rst
+   other_resources.rst
+   notes_on_development.rst
 
